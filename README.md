@@ -190,8 +190,8 @@ manually resolve them with the help of the instructor or a teaching assistant.
 ## Problems
 
 If you have found a problem with this assignment's provided source code, then
-you can go to the [Computer Science 600 Project 1
-Starter](https://github.com/Allegheny-Computer-Science-600-F2017/cs600-F2017-project1-starter)
+you can go to the [Computer Science 600 Project 3
+Starter](https://github.com/Allegheny-Computer-Science-600-F2017/cs600-F2017-project3-starter)
 repository and create an issue by clicking the "Issues" tab and then clicking
 the green "New Issue" button. To ensure that your issue is properly resolved,
 please provide as many details as is possible about the problem that you
