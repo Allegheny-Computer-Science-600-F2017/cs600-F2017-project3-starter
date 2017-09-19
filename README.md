@@ -99,12 +99,12 @@ window when you are in the root of your GitHub repository.
 ## Security
 
 In order for Travis to automatically upload a PDF, called
-`senior_thesis_description.pdf`, to GitHub when you tag the commit, you need to
+`senior_thesis_status_update.pdf`, to GitHub when you tag the commit, you need to
 created your encrypted access token. To complete this task you must type the
 command `travis setup releases --force` in your GitHub repository for this
 assignment. Then, when prompted, please type your username and password for
 GitHub. When asked to give the filename, you can type
-`_build/senior_thesis_description.pdf`. When asked if you want to deploy from a
+`_build/senior_thesis_status_update.pdf`. When asked if you want to deploy from a
 specific repository, you can respond with the answer of "no". Finally, when
 this tool asks if you want to use encryption, please answer with a "yes".
 
@@ -134,17 +134,17 @@ all GitHub projects are asked to adopt.
 
 Please note that the faculty members who read the PDF that is generated from the
 LaTeX source code will only do so by downloading the "tagged" release of the
-file `senior_thesis_description.pdf` that has a version number greater than
+file `senior_thesis_status_update.pdf` that has a version number greater than
 1.0.0. That is, if your commit is tagged with
-`senior_thesis_description-gkapfham-1.0.0`, then the file
-`senior_thesis_description.pdf` should be available for download in the
+`senior_thesis_status_update-gkapfham-1.0.0`, then the file
+`senior_thesis_status_update.pdf` should be available for download in the
 "Releases" tab in your GitHub repository for this project under the name
-`senior_thesis_description-gkapfham-1.0.0`.
+`senior_thesis_status_update-gkapfham-1.0.0`.
 
 Once you have finished making a single small change to the
-`senior_thesis_description.tex`, you should commit your file using a `git
+`senior_thesis_status_update.tex`, you should commit your file using a `git
 commit` command. Now, to create your first tag for this repository you could
-type `git tag senior_thesis_description-gkapfham-0.1.0`. Of course, you should
+type `git tag senior_thesis_status_update-gkapfham-0.1.0`. Of course, you should
 substitute your user name for `gkapfham` when you create the tag. At this point,
 you are ready to push your changes with the appropriate tag by typing the
 command `git push -u origin master --tags`. After waiting for a period of time,
@@ -152,7 +152,7 @@ you should see that your GitHub repository features a new release of the
 document that you must create for this project.
 
 When you make subsequent changes to your files and perform commits and you are
-ready to release a new version of `senior_thesis_description.pdf`, then you
+ready to release a new version of `senior_thesis_status_update.pdf`, then you
 should again tag your work &mdash; before running a push &mdash; with a tag that
 adheres to the [Semantic Versioning](http://semver.org/) standard. Each time
 that you correctly execute this sequence of commands you will release a new
@@ -197,7 +197,7 @@ experienced.
 Please note that these assignment sheets have been developed and tested on an
 Ubuntu 16.04 workstation running a recent version of LaTeX that was manually
 installed using the TeXLive installer. It is also worth noting that you can
-compile the `senior_thesis_description.tex` file using LaTeX development tools
+compile the `senior_thesis_status_update.tex` file using LaTeX development tools
 such as `latexmk` or `pdflatex`. If you are unable to compile this file with
 your development tools and your execution environment, then please open a new
 issue and we will attempt to resolve your concerns.
