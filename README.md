@@ -2,16 +2,18 @@
 
 TASK LIST:
 
-  * Use cp -rf *.* to copy all of the files and directories in this repository
-    to the starter repository for this assignment
-  * Change into the directory for the starer repository
-  * Update the header (e.g., #) to only give the name of the assignment
   * Update the first paragraph to include the commented-out content
   * Change the link in the # Problems section to point to this lab's starter
   * Create the assignment in the GitHub Classroom, noting the URL
   * Test the assignment by accepting it with your own GitHub account
   * Check to ensure that your GitHub repository is created correctly
   * Share the assignment link with all of the students using email or Slack
+
+NOTE:
+
+  * For projects in CMPSC 600, the course instructor only creates starter
+    repositories since there is no expected "solution" for the project
+  * This project is a status update so it uses the corresponding template
 
 PROBLEMS?
 
@@ -20,7 +22,7 @@ PROBLEMS?
 
 -->
 
-# cs600-F2017-project1
+# cs600-F2017-project3
 
 This repository contains the starter for project one in Computer Science 600
 Fall 2017. The main directory of this repository contains the LaTeX source code
