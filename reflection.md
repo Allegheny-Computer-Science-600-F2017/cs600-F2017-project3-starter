@@ -2,4 +2,4 @@
 
 These were my challenges and solutions.
 
-I suggest that the lab be organized in this fashion.
+I suggest that the project be organized in this fashion.
