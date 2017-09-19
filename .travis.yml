@@ -4,12 +4,12 @@ before_install:
   texlive-latex-recommended
 script:
 - mkdir _build
-- latexmk -pdf -outdir=_build senior_thesis_description.tex
+- latexmk -pdf -outdir=_build senior_thesis_status_update.tex
 deploy:
   provider: releases
   api_key:
     secure: JuWNdIJE5a4+fpjCsfVhX9LlW1uzCqRsvZBmIfnUdV68Go+88lj8nDXiVncaCnVGACoMKwlXIQwXb1mpC5GnnBm3jgBK9t88sxEfaLk+JdIXR4alfsIgEMIcmhJO/BrmnxoH6Dc0lWa4OsG+e/TAxCmoVYKPQgSothfRnUmxZBjq9OxdXDUdfA/+FDT3RFtOFYd5FlUvKmAhoJRUg9BNC7IsZLWL1IGVGmjhz9/dlTqaSSAHvC09apXcpKCrZLLWfFkneYajdzsscu47QmgevjtXvw+0xXbtpz3NLfgY798W5jzLrml9vipj00fUdUzuqw3GKMeu2kcntPjy3XfK6Z10xi5w7veeUPOkPsdz9pmS5N370EB0KnCI2oglhh4XMzqHktRRXaFFbKC4vqL1FFI3o/Be95czsP/Xt+cKvQwxjWvknL5pewkumkeKP18N7h3tgAzgl2VhIuTtyFvMHpKoZ1GlkAidhsHfIvhsv3eYKQCFioST1OEPkdKXiCQc3ijJngW0/VPTGqufd+wHMyWhyHh8sCPCJGGmNvbHGVEXq6WEhfPAzeW/UBoSz/WA6t89GTxnp3nwhRlb0V5OuV3LkfkBC0Y04XGK+zQvJakIwgxF4RbjAGeiV5zx8XM7fZbq66Db88ch7saBbftY5hNSg6nkh1rmdAwocjQGo74=
-  file: _build/senior_thesis_description.pdf
+  file: _build/senior_thesis_status_update.pdf
   skip_cleanup: true
   on:
     tags: true
