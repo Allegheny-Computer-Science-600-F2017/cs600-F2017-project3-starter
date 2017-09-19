@@ -157,7 +157,10 @@ should again tag your work &mdash; before running a push &mdash; with a tag that
 adheres to the [Semantic Versioning](http://semver.org/) standard. Each time
 that you correctly execute this sequence of commands you will release a new
 version of your document to GitHub that is easily accessible as a PDF to you and
-to your first and second readers.
+to your first and second readers. If you are unable to create a tagged release
+using the automated system that Travis provides you can manually create one by
+using GitHub's web interface; to adopt the manual approach please click the
+"Draft a new release" button in the Releases tab of your GitHub repository.
 
 ## Updates
 
@@ -166,7 +169,7 @@ you would like to receive these updates, then you can type this command in the
 main directory for this assignment:
 
 ```
-git remote add download git@github.com:Allegheny-Computer-Science-600-F2017/cs600-F2017-lab1-starter.git
+git remote add download git@github.com:Allegheny-Computer-Science-600-F2017/cs600-F2017-project3-starter.git
 ```
 
 You should only need to type this command once; typing the command additional
