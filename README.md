@@ -39,26 +39,15 @@ repository whenever a commit is tagged for a release. Additionally, you can use
 a LaTeX compilation command like `pdflatex` or `latexmk` to compile the provided
 LaTeX file on your local workstation.
 
-<!---
-
- Since the Travis builds for this repository will initially fail (as evidenced by
- a red &#x2717; appearing in the commit logs instead of a green &#x2714;), the
- researcher is responsible for completing all of the steps needed to satisfy the
- requirements for the assignment, thus causing a &#x2714; to instead appear in
- the commit logs.
-
---->
-
 ## Introduction
 
 This assignment requires a researcher to write a LaTeX document, stored in the
-file `senior_thesis_description.tex`, that explains three key aspects of a
-proposed senior thesis research project. First, you should state the tentative
-title for your senior thesis. Second, you should write a one-paragraph abstract
-that explains your proposed research. Third, you should include a bulleted list
-that suggests a potential first and second reader for your thesis research.
-Below the bulleted list you should justify your choice of readers with an
-additional paragraph.
+file `senior_thesis_status_update.tex`, that explains three key aspects of work
+that you have completed for your proposed senior thesis research project. First,
+you should state the final title for your senior thesis. Second, you should
+write a one-paragraph abstract that explains your proposed research. Third, you
+should include a bulleted list of the steps that you have taken to demonstrate
+the feasibility of your proposed research.
 
 The researcher is also responsible for writing a one-paragraph reflection,
 stored in the file `reflection.md`, that explains the challenges that you faced
